@@ -55,6 +55,11 @@ a{
     color: #553104;
     font-size: 1.3rem;
     text-decoration: none;
+    
+}
+
+a:hover {
+    font-size: calc(100% + 0.5em);
 }
 
 .text-centre{
