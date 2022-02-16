@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Kurale";
+    src: url(src/fonts/Kurale/Kurale-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Press Start 2P";
+    src: url(src/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Concert One";
+    src: url(src/fonts/Concert_One/ConcertOne-Regular.ttf);
+}
+
+body{
+
+    background: #BA5370; 
+    background: linear-gradient(to left, #AC6FDE, #DE6FA1);
+}
+
+
+input {
+    background: rgb(233, 227, 230);
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-bottom: 15px;
+    width: 35rem;
+}
+
+h1{
+    text-align: center;
+    color: #6FDEAC;
+    font-family: 'Kurale', serif;
+    font-size: 4rem;
+    margin-bottom: 7px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px 20px;
+    width: 250px;
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    color: #442805;
+    font-size: 1.1rem;
+}
+
+a{
+    font-family: 'Concert One', cursive;
+    color: #553104;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.text-centre{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.busca{
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    padding: 20px 0px;
+}
+
+.col-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.col-2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pessoal{
+    background: #EBA9C7;
+    padding: 2px;
+}
+.cursos{
+    background: #DE9C6F;
+    padding: 2px;
+}
+
+.produtividade{
+    background: #D9DE6F;
+    padding: 2px;
+}
+
+.social-media{
+    background: #6FDE7C;
+    padding: 2px;
+
+}
+
+.streaming{
+    background: #6FDEDC;
+    padding: 2px;
+}
+
+.shopping{
+    background: #6F81DE;
+    padding: 2px;
+}
+
+
